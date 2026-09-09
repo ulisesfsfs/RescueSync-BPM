@@ -105,16 +105,6 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Pg9CwKvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_Pg9CwqvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:ServiceTask" xmi:id="_PhFloKvUEfGGjYEUN-iB-A" name="Notificar ONGs" outgoing="_Pmu6oKvUEfGGjYEUN-iB-A" incoming="_Pmm-0KvUEfGGjYEUN-iB-A">
-          <dynamicLabel xmi:type="expression:Expression" xmi:id="_PhFloqvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
-          <dynamicDescription xmi:type="expression:Expression" xmi:id="_PhFloavUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
-          <stepSummary xmi:type="expression:Expression" xmi:id="_PhFlo6vUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
-          <loopCondition xmi:type="expression:Expression" xmi:id="_PhGMsKvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <loopMaximum xmi:type="expression:Expression" xmi:id="_PhGMsavUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
-          <cardinalityExpression xmi:type="expression:Expression" xmi:id="_PhGMsqvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
-          <iteratorExpression xmi:type="expression:Expression" xmi:id="_PhGMtKvUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
-          <completionCondition xmi:type="expression:Expression" xmi:id="_PhGMs6vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-        </elements>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_PhMTUKvUEfGGjYEUN-iB-A" name="Sistema">
         <elements xmi:type="process:ServiceTask" xmi:id="_PhdZEKvUEfGGjYEUN-iB-A" name="Enviar ofertas a Sistema Nacional" outgoing="_PkVG4KvUEfGGjYEUN-iB-A" incoming="_Ed-8MKviEfGPjbJOghg_xg">
@@ -196,6 +186,16 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_GkbntaxYEfG6DcibwtxsHw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_GkcOwKxYEfG6DcibwtxsHw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_GkbntqxYEfG6DcibwtxsHw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        </elements>
+        <elements xmi:type="process:ServiceTask" xmi:id="_PhFloKvUEfGGjYEUN-iB-A" name="Notificar ONGs" outgoing="_Pmu6oKvUEfGGjYEUN-iB-A" incoming="_Pmm-0KvUEfGGjYEUN-iB-A">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_PhFloqvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_PhFloavUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_PhFlo6vUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
+          <loopCondition xmi:type="expression:Expression" xmi:id="_PhGMsKvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+          <loopMaximum xmi:type="expression:Expression" xmi:id="_PhGMsavUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <cardinalityExpression xmi:type="expression:Expression" xmi:id="_PhGMsqvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <iteratorExpression xmi:type="expression:Expression" xmi:id="_PhGMtKvUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+          <completionCondition xmi:type="expression:Expression" xmi:id="_PhGMs6vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_PiGSQKvUEfGGjYEUN-iB-A" name="ONG" actor="_SeZAEKvbEfGGjYEUN-iB-A">
@@ -576,10 +576,6 @@
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pg9p0avUEfGGjYEUN-iB-A" x="924" y="52"/>
             </children>
-            <children xmi:type="notation:Shape" xmi:id="_PhGzwKvUEfGGjYEUN-iB-A" type="3027" element="_PhFloKvUEfGGjYEUN-iB-A" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
-              <children xmi:type="notation:DecorationNode" xmi:id="_PhHa0KvUEfGGjYEUN-iB-A" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PhGzwavUEfGGjYEUN-iB-A" x="681" y="241"/>
-            </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_PgZpIavUEfGGjYEUN-iB-A"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_PgZpIqvUEfGGjYEUN-iB-A" fontName="Segoe UI"/>
@@ -629,6 +625,10 @@
             <children xmi:type="notation:Shape" xmi:id="_EtxyqaxZEfG6DcibwtxsHw" type="3027" element="_EtxyoKxZEfG6DcibwtxsHw" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_Etxyq6xZEfG6DcibwtxsHw" type="5017"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EtxyqqxZEfG6DcibwtxsHw" x="1594" y="317" width="154" height="76"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_PhGzwKvUEfGGjYEUN-iB-A" type="3027" element="_PhFloKvUEfGGjYEUN-iB-A" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+              <children xmi:type="notation:DecorationNode" xmi:id="_PhHa0KvUEfGGjYEUN-iB-A" type="5017"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PhGzwavUEfGGjYEUN-iB-A" x="694" y="267"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_PhMTUqvUEfGGjYEUN-iB-A"/>
