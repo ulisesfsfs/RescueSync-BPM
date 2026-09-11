@@ -350,7 +350,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_PjBfUKvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_PjBfUqvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:EndEvent" xmi:id="_A_oT8K1sEfGhg4iXH2Bxcg" name="End1" incoming="_BAOJ0K1sEfGhg4iXH2Bxcg">
+        <elements xmi:type="process:EndEvent" xmi:id="_A_oT8K1sEfGhg4iXH2Bxcg" name="Fin" incoming="_BAOJ0K1sEfGhg4iXH2Bxcg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_A_-5Qa1sEfGhg4iXH2Bxcg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_A_-5QK1sEfGhg4iXH2Bxcg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_A_-5Qq1sEfGhg4iXH2Bxcg" name="" content="" returnTypeFixed="true"/>
@@ -749,7 +749,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_PjCGYKvUEfGGjYEUN-iB-A" type="3003" element="_PjA4QKvUEfGGjYEUN-iB-A" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_PjCGYqvUEfGGjYEUN-iB-A" type="5025">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_PjCGY6vUEfGGjYEUN-iB-A" x="16" y="5"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_PjCGY6vUEfGGjYEUN-iB-A" y="9"/>
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PjCGYavUEfGGjYEUN-iB-A" x="3666" y="125"/>
             </children>
