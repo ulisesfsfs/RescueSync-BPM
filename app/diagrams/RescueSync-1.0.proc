@@ -40,7 +40,7 @@
         </elements>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_PgZCEKvUEfGGjYEUN-iB-A" name="Centro coordinador regional" actor="_FfUhkKvbEfGGjYEUN-iB-A">
-        <elements xmi:type="process:Task" xmi:id="_Pghk8KvUEfGGjYEUN-iB-A" name="Recibir y revisar emergencia" outgoing="_Pj7eQKvUEfGGjYEUN-iB-A" incoming="_Pj1-sKvUEfGGjYEUN-iB-A" overrideActorsOfTheLane="false" priority="1">
+        <elements xmi:type="process:Task" xmi:id="_Pghk8KvUEfGGjYEUN-iB-A" name="Revisar emergencia" outgoing="_Pj7eQKvUEfGGjYEUN-iB-A" incoming="_Pj1-sKvUEfGGjYEUN-iB-A" overrideActorsOfTheLane="false" priority="1">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_Pghk8qvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Pghk8avUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_Pghk86vUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
@@ -517,7 +517,7 @@
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_RFPFkK1sEfGhg4iXH2Bxcg" target="_Pf6tkK1sEfGhg4iXH2Bxcg" source="_PiQqUKvUEfGGjYEUN-iB-A">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_RFPsoK1sEfGhg4iXH2Bxcg"/>
-        <condition xmi:type="expression:Expression" xmi:id="_RFPsoa1sEfGhg4iXH2Bxcg" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_RFPsoa1sEfGhg4iXH2Bxcg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_Mq450K1vEfGhg4iXH2Bxcg" target="_vSrCoK1uEfGhg4iXH2Bxcg" source="_PhxiIKvUEfGGjYEUN-iB-A">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_Mq5g4K1vEfGhg4iXH2Bxcg"/>
@@ -671,7 +671,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_Pf-_AK1sEfGhg4iXH2Bxcg" type="3027" element="_Pf6tkK1sEfGhg4iXH2Bxcg" fontName="Ubuntu" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_Pf_mEK1sEfGhg4iXH2Bxcg" type="5017"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pf-_Aa1sEfGhg4iXH2Bxcg" x="2777" y="251" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pf-_Aa1sEfGhg4iXH2Bxcg" x="2777" y="251" width="142" height="71"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_vSs30K1uEfGhg4iXH2Bxcg" type="3008" element="_vSrCoK1uEfGhg4iXH2Bxcg" fontName="Ubuntu">
               <children xmi:type="notation:DecorationNode" xmi:id="_vSte4K1uEfGhg4iXH2Bxcg" type="5026">
@@ -1032,7 +1032,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_RFSI4a1sEfGhg4iXH2Bxcg" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_RFRh0a1sEfGhg4iXH2Bxcg" fontName="Ubuntu"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RFRh0q1sEfGhg4iXH2Bxcg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RFRh0q1sEfGhg4iXH2Bxcg" points="[11, 0, 0, 173]$[11, -163, 0, 10]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RFVzQK1sEfGhg4iXH2Bxcg" id="(0.375,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RFVzQa1sEfGhg4iXH2Bxcg" id="(0.51,0.86)"/>
     </edges>
