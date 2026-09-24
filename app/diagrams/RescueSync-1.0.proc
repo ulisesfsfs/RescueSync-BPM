@@ -3,25 +3,10 @@
   <process:MainProcess xmi:id="_PccWMKvUEfGGjYEUN-iB-A" name="RescueSync" bonitaModelVersion="9">
     <elements xmi:type="process:Pool" xmi:id="_PdZ_gKvUEfGGjYEUN-iB-A" name="RescueSync">
       <elements xmi:type="process:Lane" xmi:id="_PflJwKvUEfGGjYEUN-iB-A" name="Municipio" actor="_6KsysKvaEfGGjYEUN-iB-A">
-        <elements xmi:type="process:StartEvent" xmi:id="_Pfx-EKvUEfGGjYEUN-iB-A" name="Inicio" outgoing="_Pjtb0KvUEfGGjYEUN-iB-A">
+        <elements xmi:type="process:StartEvent" xmi:id="_Pfx-EKvUEfGGjYEUN-iB-A" name="Cargar emergencia" outgoing="_YecmkLgnEfGmNsHRY1QCIA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_PfylIavUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_PfylIKvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_PfylIqvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
-        </elements>
-        <elements xmi:type="process:Task" xmi:id="_PgCcwKvUEfGGjYEUN-iB-A" name="Cargar emergencia" outgoing="_Pj1-sKvUEfGGjYEUN-iB-A" incoming="_Pjtb0KvUEfGGjYEUN-iB-A" actor="_6KsysKvaEfGGjYEUN-iB-A" overrideActorsOfTheLane="false" priority="1">
-          <dynamicLabel xmi:type="expression:Expression" xmi:id="_PgDD0avUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
-          <dynamicDescription xmi:type="expression:Expression" xmi:id="_PgDD0KvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
-          <stepSummary xmi:type="expression:Expression" xmi:id="_PgDD0qvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
-          <loopCondition xmi:type="expression:Expression" xmi:id="_PgDD06vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <loopMaximum xmi:type="expression:Expression" xmi:id="_PgDD1KvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
-          <cardinalityExpression xmi:type="expression:Expression" xmi:id="_PgDD1avUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
-          <iteratorExpression xmi:type="expression:Expression" xmi:id="_PgDD16vUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
-          <completionCondition xmi:type="expression:Expression" xmi:id="_PgDD1qvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_PgDD2avUEfGGjYEUN-iB-A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_PgDD2qvUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
-          </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_PgDD2KvUEfGGjYEUN-iB-A"/>
-          <expectedDuration xmi:type="expression:Expression" xmi:id="_PgDD26vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:Task" xmi:id="_PgS7cKvUEfGGjYEUN-iB-A" name="Seleccionar ofertas" outgoing="_PlEGsKvUEfGGjYEUN-iB-A" incoming="_PlAcUKvUEfGGjYEUN-iB-A" overrideActorsOfTheLane="false" priority="1">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_PgTigavUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
@@ -33,14 +18,14 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_PgTih6vUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_PgTihqvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_PgTiiavUEfGGjYEUN-iB-A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_PgTiiqvUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_K9f08LglEfGmNsHRY1QCIA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_PgTiiKvUEfGGjYEUN-iB-A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_PgTii6vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_PgZCEKvUEfGGjYEUN-iB-A" name="Centro coordinador regional" actor="_FfUhkKvbEfGGjYEUN-iB-A">
-        <elements xmi:type="process:Task" xmi:id="_Pghk8KvUEfGGjYEUN-iB-A" name="Revisar emergencia" outgoing="_Pj7eQKvUEfGGjYEUN-iB-A" incoming="_Pj1-sKvUEfGGjYEUN-iB-A" overrideActorsOfTheLane="false" priority="1">
+        <elements xmi:type="process:Task" xmi:id="_Pghk8KvUEfGGjYEUN-iB-A" name="Revisar emergencia" outgoing="_Pj7eQKvUEfGGjYEUN-iB-A" incoming="_YecmkLgnEfGmNsHRY1QCIA" overrideActorsOfTheLane="false" priority="1">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_Pghk8qvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Pghk8avUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_Pghk86vUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
@@ -50,7 +35,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_Pghk-KvUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_Pghk96vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_PgiMAKvUEfGGjYEUN-iB-A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_PgiMAavUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_K9f08bglEfGmNsHRY1QCIA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_Pghk-avUEfGGjYEUN-iB-A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_PgiMAqvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -65,7 +50,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_Pgo5t6vUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_Pgo5tqvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_Pgo5uavUEfGGjYEUN-iB-A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_Pgo5uqvUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_K9f08rglEfGmNsHRY1QCIA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_Pgo5uKvUEfGGjYEUN-iB-A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_Pgo5u6vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -80,7 +65,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_PgvAWKvUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_PgvAV6vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_PgvnYavUEfGGjYEUN-iB-A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_PgvnYqvUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_K9f087glEfGmNsHRY1QCIA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_PgvnYKvUEfGGjYEUN-iB-A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_PgvnY6vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -95,7 +80,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_Pg2VGKvUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_Pg2VF6vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_Pg2VGqvUEfGGjYEUN-iB-A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_Pg2VG6vUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_K9f09LglEfGmNsHRY1QCIA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_Pg2VGavUEfGGjYEUN-iB-A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_Pg2VHKvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -106,7 +91,7 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_Pg9CwqvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_PhMTUKvUEfGGjYEUN-iB-A" name="Sistema">
+      <elements xmi:type="process:Lane" xmi:id="_PhMTUKvUEfGGjYEUN-iB-A" name="Sistema" actor="_6KsysKvaEfGGjYEUN-iB-A">
         <elements xmi:type="process:ServiceTask" xmi:id="_PhdZEKvUEfGGjYEUN-iB-A" name="Enviar ofertas a Sistema Nacional" outgoing="_PkVG4KvUEfGGjYEUN-iB-A" incoming="_Ed-8MKviEfGPjbJOghg_xg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_PhdZEqvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_PhdZEavUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
@@ -224,7 +209,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_PiMY6KvUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_PiMY56vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_PiMY6qvUEfGGjYEUN-iB-A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_PiMY66vUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_K9f09bglEfGmNsHRY1QCIA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_PiMY6avUEfGGjYEUN-iB-A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_PiMY7KvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -239,7 +224,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_PiQqWKvUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_PiQqV6vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_PiQqWqvUEfGGjYEUN-iB-A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_PiQqW6vUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_K9f09rglEfGmNsHRY1QCIA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_PiQqWavUEfGGjYEUN-iB-A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_PiQqXKvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -268,7 +253,7 @@
             </condition>
           </BoundaryIntermediateEvents>
           <formMapping xmi:type="process:FormMapping" xmi:id="_PiU7yqvUEfGGjYEUN-iB-A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_PiU7y6vUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_K9f097glEfGmNsHRY1QCIA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_PiU7yavUEfGGjYEUN-iB-A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_PiU7zKvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -283,7 +268,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_PibpeKvUEfGGjYEUN-iB-A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_Pibpd6vUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_PibpeqvUEfGGjYEUN-iB-A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_Pibpe6vUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_K9f0-LglEfGmNsHRY1QCIA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_PibpeavUEfGGjYEUN-iB-A"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_PibpfKvUEfGGjYEUN-iB-A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -350,7 +335,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_PjBfUKvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_PjBfUqvUEfGGjYEUN-iB-A" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:EndEvent" xmi:id="_A_oT8K1sEfGhg4iXH2Bxcg" name="Fin" incoming="_BAOJ0K1sEfGhg4iXH2Bxcg">
+        <elements xmi:type="process:EndEvent" xmi:id="_A_oT8K1sEfGhg4iXH2Bxcg" name="Bloqueo terminado" incoming="_BAOJ0K1sEfGhg4iXH2Bxcg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_A_-5Qa1sEfGhg4iXH2Bxcg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_A_-5QK1sEfGhg4iXH2Bxcg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_A_-5Qq1sEfGhg4iXH2Bxcg" name="" content="" returnTypeFixed="true"/>
@@ -371,20 +356,15 @@
       <data xmi:type="process:Data" xmi:id="_e4JUcK1vEfGhg4iXH2Bxcg" name="cantTerminadas" dataType="_PcgnoavUEfGGjYEUN-iB-A">
         <defaultValue xmi:type="expression:Expression" xmi:id="_e4JUca1vEfGhg4iXH2Bxcg" name="" content="" returnType="java.lang.Integer"/>
       </data>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_nkoU0LgiEfGmNsHRY1QCIA" name="emergencia" dataType="_PchOsavUEfGGjYEUN-iB-A" className="com.company.model.Emergencia">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_1bf2qbglEfGmNsHRY1QCIA" name="" content=""/>
+      </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_Pe-FwKvUEfGGjYEUN-iB-A">
-        <targetForm xmi:type="expression:Expression" xmi:id="_Pe-FwavUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_K9f0-bglEfGmNsHRY1QCIA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_Pe-FwqvUEfGGjYEUN-iB-A">
         <targetForm xmi:type="expression:Expression" xmi:id="_Pe-Fw6vUEfGGjYEUN-iB-A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </overviewFormMapping>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_Pjtb0KvUEfGGjYEUN-iB-A" target="_PgCcwKvUEfGGjYEUN-iB-A" source="_Pfx-EKvUEfGGjYEUN-iB-A">
-        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_Pjtb0avUEfGGjYEUN-iB-A"/>
-        <condition xmi:type="expression:Expression" xmi:id="_Pjtb0qvUEfGGjYEUN-iB-A" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-      </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_Pj1-sKvUEfGGjYEUN-iB-A" target="_Pghk8KvUEfGGjYEUN-iB-A" source="_PgCcwKvUEfGGjYEUN-iB-A">
-        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_Pj1-savUEfGGjYEUN-iB-A"/>
-        <condition xmi:type="expression:Expression" xmi:id="_Pj1-sqvUEfGGjYEUN-iB-A" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-      </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_Pj7eQKvUEfGGjYEUN-iB-A" target="_PgoSoKvUEfGGjYEUN-iB-A" source="_Pghk8KvUEfGGjYEUN-iB-A">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_Pj7eQavUEfGGjYEUN-iB-A"/>
         <condition xmi:type="expression:Expression" xmi:id="_Pj7eQqvUEfGGjYEUN-iB-A" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
@@ -527,10 +507,33 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_WnOnIa1vEfGhg4iXH2Bxcg"/>
         <condition xmi:type="expression:Expression" xmi:id="_WnOnIq1vEfGhg4iXH2Bxcg" name="cantTerminadas > 0" content="cantTerminadas > 0" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_YecmkLgnEfGmNsHRY1QCIA" target="_Pghk8KvUEfGGjYEUN-iB-A" source="_Pfx-EKvUEfGGjYEUN-iB-A">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_Yefp4LgnEfGmNsHRY1QCIA"/>
+        <condition xmi:type="expression:Expression" xmi:id="_Yefp4bgnEfGmNsHRY1QCIA" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
       <actors xmi:type="process:Actor" xmi:id="_6KsysKvaEfGGjYEUN-iB-A" name="Empleado municipal" initiator="true"/>
       <actors xmi:type="process:Actor" xmi:id="_FfUhkKvbEfGGjYEUN-iB-A" name="Empleado centro coordinador"/>
       <actors xmi:type="process:Actor" xmi:id="_SeZAEKvbEfGGjYEUN-iB-A" name="Responsable ONG"/>
-      <contract xmi:type="process:Contract" xmi:id="_Pe-s0KvUEfGGjYEUN-iB-A"/>
+      <contract xmi:type="process:Contract" xmi:id="_Pe-s0KvUEfGGjYEUN-iB-A">
+        <inputs xmi:type="process:ContractInput" xmi:id="_1bf2oLglEfGmNsHRY1QCIA" name="emergenciaInput" type="COMPLEX" dataReference="emergencia">
+          <inputs xmi:type="process:ContractInput" xmi:id="_1bf2obglEfGmNsHRY1QCIA" name="titulo"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_1bf2orglEfGmNsHRY1QCIA" name="descripcion"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_1bf2o7glEfGmNsHRY1QCIA" name="gravedad"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_1bf2pLglEfGmNsHRY1QCIA" name="zona"/>
+        </inputs>
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_1bf2pbglEfGmNsHRY1QCIA" expression="emergenciaInput?.titulo != null" errorMessage="titulo is mandatory for Emergencia" name="mandatory_emergenciaInput_titulo">
+          <inputNames>emergenciaInput</inputNames>
+        </constraints>
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_1bf2prglEfGmNsHRY1QCIA" expression="emergenciaInput?.descripcion != null" errorMessage="descripcion is mandatory for Emergencia" name="mandatory_emergenciaInput_descripcion">
+          <inputNames>emergenciaInput</inputNames>
+        </constraints>
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_1bf2p7glEfGmNsHRY1QCIA" expression="emergenciaInput?.gravedad != null" errorMessage="gravedad is mandatory for Emergencia" name="mandatory_emergenciaInput_gravedad">
+          <inputNames>emergenciaInput</inputNames>
+        </constraints>
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_1bf2qLglEfGmNsHRY1QCIA" expression="emergenciaInput?.zona != null" errorMessage="zona is mandatory for Emergencia" name="mandatory_emergenciaInput_zona">
+          <inputNames>emergenciaInput</inputNames>
+        </constraints>
+      </contract>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_Pe7pgKvUEfGGjYEUN-iB-A">
         <name xmi:type="expression:Expression" xmi:id="_Pe7pgavUEfGGjYEUN-iB-A" content="" returnTypeFixed="true"/>
         <value xmi:type="expression:Expression" xmi:id="_Pe7pgqvUEfGGjYEUN-iB-A" content="" returnTypeFixed="true"/>
@@ -574,10 +577,6 @@
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_Pf0aUavUEfGGjYEUN-iB-A" x="-28" y="5"/>
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PfzzQavUEfGGjYEUN-iB-A" x="180" y="88"/>
-            </children>
-            <children xmi:type="notation:Shape" xmi:id="_PgFgEKvUEfGGjYEUN-iB-A" type="3005" element="_PgCcwKvUEfGGjYEUN-iB-A" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
-              <children xmi:type="notation:DecorationNode" xmi:id="_PgGuMKvUEfGGjYEUN-iB-A" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PgFgEavUEfGGjYEUN-iB-A" x="280" y="61" width="145" height="72"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_PgUJkKvUEfGGjYEUN-iB-A" type="3005" element="_PgS7cKvUEfGGjYEUN-iB-A" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_PgUJkqvUEfGGjYEUN-iB-A" type="5005"/>
@@ -774,20 +773,6 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PfEMY6vUEfGGjYEUN-iB-A" width="3980" height="1447"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_PceLYavUEfGGjYEUN-iB-A"/>
-    <edges xmi:type="notation:Connector" xmi:id="_Pjup8KvUEfGGjYEUN-iB-A" type="4001" element="_Pjtb0KvUEfGGjYEUN-iB-A" source="_PfzzQKvUEfGGjYEUN-iB-A" target="_PgFgEKvUEfGGjYEUN-iB-A" roundedBendpointsRadius="10" routing="Rectilinear" lineColor="12632256">
-      <children xmi:type="notation:DecorationNode" xmi:id="_PjvRAKvUEfGGjYEUN-iB-A" type="6001">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_PjvRAavUEfGGjYEUN-iB-A" y="-10"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_Pjup8avUEfGGjYEUN-iB-A" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Pjup8qvUEfGGjYEUN-iB-A" points="[0, 0, -73, 0]$[73, 0, 0, 0]"/>
-    </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_Pj2lwKvUEfGGjYEUN-iB-A" type="4001" element="_Pj1-sKvUEfGGjYEUN-iB-A" source="_PgFgEKvUEfGGjYEUN-iB-A" target="_PgizEKvUEfGGjYEUN-iB-A" roundedBendpointsRadius="10" routing="Rectilinear" lineColor="12632256">
-      <children xmi:type="notation:DecorationNode" xmi:id="_Pj2lw6vUEfGGjYEUN-iB-A" type="6001">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_Pj2lxKvUEfGGjYEUN-iB-A" y="-10"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_Pj2lwavUEfGGjYEUN-iB-A" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Pj2lwqvUEfGGjYEUN-iB-A" points="[0, 0, 0, -165]$[0, 165, 0, 0]"/>
-    </edges>
     <edges xmi:type="notation:Connector" xmi:id="_Pj8FUKvUEfGGjYEUN-iB-A" type="4001" element="_Pj7eQKvUEfGGjYEUN-iB-A" source="_PgizEKvUEfGGjYEUN-iB-A" target="_PgpgwKvUEfGGjYEUN-iB-A" roundedBendpointsRadius="10" routing="Rectilinear" lineColor="12632256">
       <children xmi:type="notation:DecorationNode" xmi:id="_Pj8FU6vUEfGGjYEUN-iB-A" type="6001">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_Pj8FVKvUEfGGjYEUN-iB-A" y="-10"/>
@@ -1052,6 +1037,14 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Wnz18q1vEfGhg4iXH2Bxcg" points="[-42, -8, 677, -280]$[-689, -8, 30, -280]$[-689, 266, 30, -6]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Wn3gUK1vEfGhg4iXH2Bxcg" id="(1.0,0.6511627906976745)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Wn3gUa1vEfGhg4iXH2Bxcg" id="(0.6587301587301587,0.09523809523809523)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_YeiGILgnEfGmNsHRY1QCIA" type="4001" element="_YecmkLgnEfGmNsHRY1QCIA" source="_PfzzQKvUEfGGjYEUN-iB-A" target="_PgizEKvUEfGGjYEUN-iB-A" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YeiGI7gnEfGmNsHRY1QCIA" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YeiGJLgnEfGmNsHRY1QCIA" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_YeiGIbgnEfGmNsHRY1QCIA" fontName="Segoe UI"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YeiGIrgnEfGmNsHRY1QCIA" points="[-4, -7, -153, -246]$[152, 278, 3, 39]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Yej7ULgnEfGmNsHRY1QCIA" id="(1.0,1.0)"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
