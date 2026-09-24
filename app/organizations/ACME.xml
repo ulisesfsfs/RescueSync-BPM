@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
   <users>
     <user userName="william.jobs">
       <firstName>William</firstName>
       <lastName>Jobs</lastName>
       <title>Mr</title>
       <jobTitle>Chief Executive Officer</jobTitle>
+      <personalData/>
       <professionalData>
         <email>william.jobs@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -31,6 +33,7 @@
       <title>Mrs</title>
       <jobTitle>Compensation specialist</jobTitle>
       <manager>helen.kelly</manager>
+      <personalData/>
       <professionalData>
         <email>april.sanchez@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -56,6 +59,7 @@
       <title>Mrs</title>
       <jobTitle>Human resource manager</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>helen.kelly@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -81,6 +85,7 @@
       <title>Mr</title>
       <jobTitle>Human resources benefits</jobTitle>
       <manager>helen.kelly</manager>
+      <personalData/>
       <professionalData>
         <email>walter.bates@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -106,6 +111,7 @@
       <title>Mr</title>
       <jobTitle>Chief Financial Officer</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>zachary.williamson@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -131,6 +137,7 @@
       <title>Mr</title>
       <jobTitle>Financial controller</jobTitle>
       <manager>zachary.williamson</manager>
+      <personalData/>
       <professionalData>
         <email>patrick.gardenier@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -156,6 +163,7 @@
       <title>Mrs</title>
       <jobTitle>Accountant</jobTitle>
       <manager>zachary.williamson</manager>
+      <personalData/>
       <professionalData>
         <email>virginie.jomphe@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -181,6 +189,7 @@
       <title>Mr</title>
       <jobTitle>Financial planning manager</jobTitle>
       <manager>zachary.williamson</manager>
+      <personalData/>
       <professionalData>
         <email>thorsten.hartmann@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -206,6 +215,7 @@
       <title>Mr</title>
       <jobTitle>Infrastucture specialist</jobTitle>
       <manager>favio.riviera</manager>
+      <personalData/>
       <professionalData>
         <email>jan.fisher@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -231,6 +241,7 @@
       <title>Mrs</title>
       <jobTitle>Product marketing manager</jobTitle>
       <manager>favio.riviera</manager>
+      <personalData/>
       <professionalData>
         <email>isabel.bleasdale@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -256,6 +267,7 @@
       <title>Mr</title>
       <jobTitle>Vice President of Marketing</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>favio.riviera@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -281,6 +293,7 @@
       <title>Mr</title>
       <jobTitle>Chief Technical Officer</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>michael.morrison@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -306,6 +319,7 @@
       <title>Mr</title>
       <jobTitle>Engineer</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>marc.marseau@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -331,6 +345,7 @@
       <title>Mr</title>
       <jobTitle>Engineer</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>joseph.hovell@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -356,6 +371,7 @@
       <title>Mr</title>
       <jobTitle>Consultant</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>mauro.zetticci@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -381,6 +397,7 @@
       <title>Mr</title>
       <jobTitle>Consultant</jobTitle>
       <manager>michael.morrison</manager>
+      <personalData/>
       <professionalData>
         <email>thomas.wallis@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -406,6 +423,7 @@
       <title>Mrs</title>
       <jobTitle>Vice President of Sales</jobTitle>
       <manager>william.jobs</manager>
+      <personalData/>
       <professionalData>
         <email>daniela.angelo@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -431,6 +449,7 @@
       <title>Mr</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>anthony.nichols@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -456,6 +475,7 @@
       <title>Mrs</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>misa.kumagai@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -481,6 +501,7 @@
       <title>Mr</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>norio.yamazaki@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
@@ -506,6 +527,7 @@
       <title>Mrs</title>
       <jobTitle>Account manager</jobTitle>
       <manager>daniela.angelo</manager>
+      <personalData/>
       <professionalData>
         <email>giovanna.almeida@acme.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
