@@ -81,6 +81,11 @@
       <classifier>application</classifier>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.connectors</groupId>
+      <artifactId>bonita-connector-rest</artifactId>
+      <version>1.5.1</version>
+    </dependency>
     
   </dependencies>
   <build>
