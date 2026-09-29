@@ -81,12 +81,18 @@
       <classifier>application</classifier>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.connectors</groupId>
+      <artifactId>bonita-connector-rest</artifactId>
+      <version>1.5.1</version>
+    </dependency>
+    
   </dependencies>
   <build>
     <plugins>
       <plugin>
-        <artifactId>gmavenplus-plugin</artifactId>
         <groupId>org.codehaus.gmavenplus</groupId>
+        <artifactId>gmavenplus-plugin</artifactId>
         <executions>
           <execution>
             <id>bonita-project-properties</id>
@@ -109,8 +115,8 @@
         </executions>
       </plugin>
       <plugin>
-        <artifactId>bonita-project-maven-plugin</artifactId>
         <groupId>org.bonitasoft.maven</groupId>
+        <artifactId>bonita-project-maven-plugin</artifactId>
         <executions>
           <execution>
             <id>process-bonita-artifacts</id>
@@ -124,8 +130,8 @@
         </executions>
       </plugin>
       <plugin>
-        <artifactId>build-helper-maven-plugin</artifactId>
         <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
         <executions>
           <execution>
             <id>add-source-folder</id>
@@ -142,7 +148,6 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
         <executions>
           <execution>
