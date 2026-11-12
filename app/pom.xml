@@ -86,6 +86,11 @@
       <artifactId>bonita-connector-rest</artifactId>
       <version>1.5.1</version>
     </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.connectors</groupId>
+      <artifactId>bonita-connector-groovy</artifactId>
+      <version>1.1.4</version>
+    </dependency>
     
   </dependencies>
   <build>
