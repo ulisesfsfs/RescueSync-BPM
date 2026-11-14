@@ -1304,7 +1304,7 @@
       <connections xmi:type="process:SequenceFlow" xmi:id="_ARtkcLjlEfGlPdn3R72URQ" name="Reiniciar convocatoria" target="_Chls0NP2EfGdAor7fcQlJg" source="_Pg8bsKvUEfGGjYEUN-iB-A">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_ARtkcbjlEfGlPdn3R72URQ"/>
         <condition xmi:type="expression:Expression" xmi:id="_ARtkcrjlEfGlPdn3R72URQ" name="newScript()" content="decisionCobertura == &quot;reiniciar&quot;" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
-          <referencedElements xmi:type="process:Data" xmi:id="_grE5IN7cEfGiM620Hq_yEw" name="decisionCobertura" dataType="_PcgnpKvUEfGGjYEUN-iB-A"/>
+          <referencedElements xmi:type="process:Data" xmi:id="_PahYAOA0EfGEc6gt1KgEBw" name="decisionCobertura" dataType="_PcgnpKvUEfGGjYEUN-iB-A"/>
         </condition>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_gd8UALjoEfGlPdn3R72URQ" target="_PhoYMKvUEfGGjYEUN-iB-A" source="_PgS7cKvUEfGGjYEUN-iB-A">
@@ -1573,7 +1573,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_ARzrEbjlEfGlPdn3R72URQ" fontName="Segoe UI"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ARzrErjlEfGlPdn3R72URQ" points="[3, 4, 622, -231]$[-615, 4, 4, -231]$[-615, 228, 4, -7]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AR0SILjlEfGlPdn3R72URQ" id="(0.06976744186046512,0.5581395348837209)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AR0SILjlEfGlPdn3R72URQ" id="(0.11627906976744186,0.23255813953488372)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_maFr4Lj0EfG4o_5nuudFfg" id="(0.4857142857142857,0.1)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_gd87ErjoEfGlPdn3R72URQ" type="4001" element="_gd8UALjoEfGlPdn3R72URQ" source="_PgUJkKvUEfGGjYEUN-iB-A" target="_Pho_SKvUEfGGjYEUN-iB-A" roundedBendpointsRadius="10" routing="Rectilinear">
