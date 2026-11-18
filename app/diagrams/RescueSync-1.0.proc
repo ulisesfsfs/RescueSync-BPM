@@ -648,9 +648,9 @@
                 <expression xmi:type="expression:Expression" xmi:id="_N5Me6NRlEfG_kLrQjQqzwA" name="X-Bonita-Task-Assignee-Id" content="X-Bonita-Task-Assignee-Id" returnTypeFixed="true"/>
               </parameters>
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_N5Me6dRlEfG_kLrQjQqzwA" key="body">
-                <expression xmi:type="expression:Expression" xmi:id="_N5Me6tRlEfG_kLrQjQqzwA" name="body()" content="&#xD;&#xA;import groovy.json.JsonOutput&#xD;&#xA;import groovy.json.JsonSlurper&#xD;&#xA;&#xD;&#xA;def evaluacion = new JsonSlurper().parseText(resultadoEvaluacion)&#xD;&#xA;&#xD;&#xA;def peticion = [&#xD;&#xA;    convocatoria_id: Integer.parseInt(convocatoriaId),&#xD;&#xA;    resultado_evaluacion: evaluacion&#xD;&#xA;]&#xD;&#xA;&#xD;&#xA;return JsonOutput.toJson(peticion)&#xD;&#xA;" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="process:Data" xmi:id="_ts2WUNRoEfG_kLrQjQqzwA" name="convocatoriaId" dataType="_PcgnpKvUEfGGjYEUN-iB-A"/>
-                  <referencedElements xmi:type="process:Data" xmi:id="_ts2WUdRoEfG_kLrQjQqzwA" name="resultadoEvaluacion" dataType="_PcgnpKvUEfGGjYEUN-iB-A"/>
+                <expression xmi:type="expression:Expression" xmi:id="_N5Me6tRlEfG_kLrQjQqzwA" name="body()" content="&#xD;&#xA;import groovy.json.JsonOutput&#xD;&#xA;import groovy.json.JsonSlurper&#xD;&#xA;&#xD;&#xA;def evaluacion = new JsonSlurper().parseText(resultadoEvaluacion)&#xD;&#xA;&#xD;&#xA;def peticion = [&#xD;&#xA;&#x9;convocatoria_id: convocatoriaId,&#xD;&#xA;&#x9;resultado_evaluacion: evaluacion&#xD;&#xA;]&#xD;&#xA;&#xD;&#xA;return JsonOutput.toJson(peticion)&#xD;&#xA;" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
+                  <referencedElements xmi:type="process:Data" xmi:id="_oYji0ONpEfGZJ4Vg2bXo8Q" name="resultadoEvaluacion" dataType="_PcgnpKvUEfGGjYEUN-iB-A"/>
+                  <referencedElements xmi:type="process:Data" xmi:id="_oYji0eNpEfGZJ4Vg2bXo8Q" name="convocatoriaId" dataType="_PcgnpKvUEfGGjYEUN-iB-A"/>
                 </expression>
               </parameters>
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_N5Me7dRlEfG_kLrQjQqzwA" key="do_not_follow_redirect">
@@ -1241,14 +1241,8 @@
       <data xmi:type="process:Data" xmi:id="_IcMs0NR0EfG_kLrQjQqzwA" name="adjudicacionId" dataType="_PcgnpKvUEfGGjYEUN-iB-A">
         <defaultValue xmi:type="expression:Expression" xmi:id="_IcMs0dR0EfG_kLrQjQqzwA" content=""/>
       </data>
-      <data xmi:type="process:Data" xmi:id="_5d0zkNR0EfG_kLrQjQqzwA" name="resultadoCompromisos" dataType="_PcgnpKvUEfGGjYEUN-iB-A">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_5d0zkdR0EfG_kLrQjQqzwA" content=""/>
-      </data>
       <data xmi:type="process:Data" xmi:id="_g2wLIN0PEfGInux_mhtkUQ" name="ofertasFinalizadasJson" dataType="_PcgnpKvUEfGGjYEUN-iB-A">
         <defaultValue xmi:type="expression:Expression" xmi:id="_g2wyMN0PEfGInux_mhtkUQ" content=""/>
-      </data>
-      <data xmi:type="process:Data" xmi:id="_T9AS4N1OEfGInux_mhtkUQ" name="codigoCompromisos" dataType="_PcgnoavUEfGGjYEUN-iB-A">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_T9AS4d1OEfGInux_mhtkUQ" name="0" content="0" returnType="java.lang.Integer"/>
       </data>
       <data xmi:type="process:Data" xmi:id="_clQGgN7MEfGiM620Hq_yEw" name="ongsNoSeleccionadasJson" dataType="_PcgnpKvUEfGGjYEUN-iB-A">
         <defaultValue xmi:type="expression:Expression" xmi:id="_clQtkN7MEfGiM620Hq_yEw" name="[]" content="[]"/>
